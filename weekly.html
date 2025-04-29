@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>週ごとの記録</title>
+	<style>
+		body {
+			display:flex;
+		}
+		h1 {
+			font-size:1em;
+			border-bottom: 2px solid black;
+			padding-bottom: 2px;
+			display: inline-block;
+		}
+		h2 {
+			font-size:0.7em;
+		}
+		div.weekly01 {
+			width: calc(100% / 2);
+			font-size:0.95em;
+			margin-top:3em;
+			margin-bottom:6em;
+			margin-left:2em;
+			margin-right:2em;
+		}
+		div.weekly01 > div:nth-child(1) {
+			border-top:solid 1px black;
+			border-left:solid 1px black;
+			border-right:solid 1px black;
+			padding-left:1em;
+			display:flex;
+			align-items: center;
+		}
+		div.weekly01 > div:nth-child(2),
+		div.weekly01 > div:nth-child(3),
+		div.weekly01 > div:nth-child(4),
+		div.weekly01 > div:nth-child(5)
+		{
+			border-left:solid 1px black;
+			border-right:solid 1px black;
+			padding-left:1em;
+			display:flex;
+			align-items: flex-start;
+			height:11em;
+		}
+		div.weekly01 > div:nth-child(5)
+		{
+			border-bottom:solid 1px black;
+		}
+	</style>
+</head>
+<body>
+		<div class="weekly01">
+			<div>
+				<h2>週の振り返り:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;〜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</h2>
+			</div>
+			<div>
+				<h2>摂食状態はどうでしたか:</h2>
+			</div>
+			<div>
+				<h2>睡眠状態はどうでしたか:</h2>
+			</div>
+			<div>
+				<h2>精神症状や身体症状はどうでしたか:</h2>
+			</div>
+			<div>
+				<h2>その他気になることはありますか:</h2>
+			</div>
+		</div>
+
+		<div class="weekly01">
+			<div>
+				<h2>週の振り返り:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;〜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</h2>
+			</div>
+			<div>
+				<h2>摂食状態はどうでしたか:</h2>
+			</div>
+			<div>
+				<h2>睡眠状態はどうでしたか:</h2>
+			</div>
+			<div>
+				<h2>精神症状や身体症状はどうでしたか:</h2>
+			</div>
+			<div>
+				<h2>その他気になることはありますか:</h2>
+			</div>
+		</div>
+</body>
+</html>
+<!--
+vim: ts=2 sw=2 noet
+-->
